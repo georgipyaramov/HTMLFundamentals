@@ -1,0 +1,53 @@
+﻿table, th, td {
+    border-color: #A4ABB2;
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+    font-family: Ebrima;
+    font-size: small;
+    font-weight: normal;
+    text-align: left;
+    vertical-align: central;
+    padding: 3px 5px 3px 5px;
+}
+
+th, tfoot {
+    background: #EAEBED;
+}
+
+    tfoot td {
+        border-right: none;
+        border-left: none;
+        padding:8px;
+    }
+
+input[type="text"] {
+    position: relative;
+    top: -2px;
+}
+
+input[type="image"] {
+    position: relative;
+    top: 4px;
+}
+
+span.page-size {
+    text-align: left;
+}
+
+span.items {
+    float: right;
+    padding: 0 5px;
+}
+
+a {
+    color: #3B3B3B;
+    text-decoration: none;
+    margin: 2px;
+}
+
+.selectedLink{
+ border:1px solid #C95C05;  
+ border-radius:4px;
+ padding:4px;
+}

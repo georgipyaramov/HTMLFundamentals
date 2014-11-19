@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+    <style>
+        body {
+            background-color: #222222;
+        }
+        table {
+            table-layout: fixed;
+            width: 180px;
+            background-color: #202020;
+            color: cyan;
+            padding: 4px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            border-color: #222222;
+            padding: 0px;
+            font-size: 20pt;
+            font-family: Consolas;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        input {
+            font-size: 20pt;
+            font-family: Arial;
+            font-weight: 500;
+            text-align: center;
+            width: 41px;
+            height: 41px;
+            color: black;
+            background-color: #D8D9DD;
+            border: none;
+        }
+
+            input[type=text] {
+                text-align: right;
+                font-size: 26pt;
+                padding: 5px;
+                width: 166px;
+                height: 41px;
+                background-color: #B8B8BA;
+            }
+
+        form input[value="0"] {
+            width: 86px;
+        }
+
+        .sign {
+            background-color: #F89013;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td colspan="4">
+                    <input type="text" value="123" />
+                </td>
+            </tr>
+            <tr>
+                <td><input type="button" name="digit" value="1" /></td>
+                <td><input type="button" name="digit" value="2" /></td>
+                <td><input type="button" name="digit" value="3" /></td>
+                <td><input type="button" name="digit" value="+" class="sign" /></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="digit" value="4" /></td>
+                <td><input type="button" name="digit" value="5" /></td>
+                <td><input type="button" name="digit" value="6" /></td>
+                <td><input type="button" name="digit" value="-" class="sign"/></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="digit" value="7" /></td>
+                <td><input type="button" name="digit" value="8" /></td>
+                <td><input type="button" name="digit" value="9" /></td>
+                <td><input type="button" name="digit" value="*" class="sign" /></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="button" name="digit" value="0" /></td>
+                <td><input type="button" name="digit" value="." class="sign" /></td>
+                <td><input type="button" name="digit" value="/" class="sign" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

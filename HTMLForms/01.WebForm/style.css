@@ -1,0 +1,21 @@
+﻿        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        .leftAlign{
+            text-align:right;
+            font-weight:bold;
+        }
+
+        #countrtSelecr {
+            min-width: 200px;
+        }
+
+        textarea {
+            resize: none;
+        }
+        #centered {
+            text-align: center;
+            background-color: #D1EDE1;
+        }

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "01.Tables", "01.Tables\01.Tables.vbproj", "{681F982E-C869-44F5-8F98-D1FBD1AB88BC}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "02.WebForms", "WebForms\02.WebForms.vbproj", "{D12023CF-2998-4275-9E7E-7593C6C65B23}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "03.Calculator", "03.Calculator\03.Calculator.vbproj", "{2A5FA6F4-40D0-4726-A282-C58D2F710400}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{681F982E-C869-44F5-8F98-D1FBD1AB88BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{681F982E-C869-44F5-8F98-D1FBD1AB88BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{681F982E-C869-44F5-8F98-D1FBD1AB88BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{681F982E-C869-44F5-8F98-D1FBD1AB88BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D12023CF-2998-4275-9E7E-7593C6C65B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D12023CF-2998-4275-9E7E-7593C6C65B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D12023CF-2998-4275-9E7E-7593C6C65B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D12023CF-2998-4275-9E7E-7593C6C65B23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A5FA6F4-40D0-4726-A282-C58D2F710400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A5FA6F4-40D0-4726-A282-C58D2F710400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A5FA6F4-40D0-4726-A282-C58D2F710400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A5FA6F4-40D0-4726-A282-C58D2F710400}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

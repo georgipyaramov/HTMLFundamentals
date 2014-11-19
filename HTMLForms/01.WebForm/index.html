@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <table border="1" >
+            <tr>
+                <td class="leftAlign"><label for="lname">Last Name</label></td>
+                <td colspan="3"><input type="text" name="lastname" id="lname" size="55" /></td>
+            </tr>
+            <tr>
+                <td class="leftAlign"><label for="fname">First Name</label></td>
+                <td colspan="3"><input type="text" name="firstName" id="fname" size="55" /></td>
+            </tr>
+            <tr>
+                <td class="leftAlign"><label for="adress">Adress</label></td>
+                <td colspan="3"><textarea name="adress" id="adress" cols="40" rows="4"></textarea></td>
+            </tr>
+            <tr>
+                <td class="leftAlign"><label for="city">City</label></td>
+                <td><input type="text" name="city" size="35" id="city"/></td>
+                <td class="leftAlign"><label for="state">State</label></td>
+                <td><input type="text" name="state" size="5" id="state" /></td>
+            </tr>
+            <tr>
+                <td class="leftAlign"><label for="zip-postalCode">Zip/Postal Code</label></td>
+                <td colspan="3"><input type="text" name="zip-postalCode" id="zip-postalCode" size="8"></td>
+            </tr>
+            <tr>
+                <td class="leftAlign"><label for="countrtSelecr">Country</label></td>
+                <td colspan="3">
+                    <select name="countrySelect" id="countrtSelecr"> 
+                        <option value="bulgaria" selected>Bulgaria</option>
+                        <option value="england">England</option>
+                        <option value="germany">Germany</option>
+                        <option value="other">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="leftAlign">Phone (country code,<br />area code,number)</td>
+                <td colspan="3">
+                    (+<input type="text" name="countryCode" size="5">)
+                    <input type="text" name="areaCode" size="5"> - 
+                    <input type="text" name="number" size="18">
+                </td>
+            </tr>
+            <tr>
+                <td class="leftAlign"><label for="email">Email</label></td>
+                <td colspan="3"><input type="text" name="email" id="email" size="55" /></td>
+            </tr>
+            <tr>
+                <td class="leftAlign">Birth date</td>
+                <td colspan="3">
+                    <label for="month">Month</label><input type="text" name="month" id="month" size="1">
+                    <label for="day">Day</label><input type="text" name="day" id="day" size="1">
+                    <label for="year">Year(4 digits)</label><input type="text" name="year" id="year" size="3">
+                </td>
+            </tr>
+            <tr>
+            <td class="leftAlign"><label for="genre">Genre</label></td>
+            <td colspan="3">
+                <select name="genre" id="genre">
+                    <option value="bulgaria" selected>Male</option>
+                    <option value="england">Female</option>
+                    <option value="germany">Abomination</option>
+                </select>
+            </td>
+            </tr>
+            <tr>
+                <td class="leftAlign">Starting date</td>
+                <td colspan="3">
+                    <input type="radio" name="startDate" value="Spring2006"> Spring 2006
+                    <input type="radio" name="startDate" value="Summer2006"> Summer 2006
+                </td>
+            </tr>
+            <tr>
+                <td class="leftAlign"><label for="comments">Comments/Questions</label></td>
+                <td colspan="3"><textarea name="comments" id="comments" cols="40" rows="6"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="4" id="centered">
+                    <button type="submit" id="submit">Submit</button>
+                    <button type="reset" id="reset">Clear This Form</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
